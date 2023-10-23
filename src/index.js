@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LogIn from './login'
+// import Screen from './screen';
+import Chat from './screen';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <Chat></Chat> */}
+    {/* <Screen></Screen> */}
     <LogIn></LogIn>
     {/* <App /> */}
   </React.StrictMode>
