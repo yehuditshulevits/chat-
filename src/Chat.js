@@ -6,9 +6,9 @@
 // }
 // export default Screen;
 import React, { useState } from "react";
-import "./screen.css";
+import "./Chat.css";
 
-const Chat = () => {
+export default function Chat(){
   const [messages, setMessages] = useState([
     { text: "Hello!", isUser: true },
     { text: "Hi there, how can I help you today?", isUser: false },
@@ -52,5 +52,3 @@ const Chat = () => {
     </div>
   );
 };
-
-export default Chat;
